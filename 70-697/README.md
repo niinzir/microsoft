@@ -8,6 +8,7 @@
   + [Using Windows Update](1_installing/update.md)
   + [Migrating Files and Settings](1_installing/migrating_files.md)
 2. [Chapter 2: Automated Windows 10 Deployments](2_automation)
+  + [Exam Essentials](2_automation/essentials.md)
   + [Deployment Options](2_automation/deployment_options.md)
   + [Unattended Installation](2_automation/unattended_installation.md)
   + [Microsoft Deployment Kit 2013 (MDT)](2_automation/MDT_2013.md)
