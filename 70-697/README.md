@@ -1,13 +1,13 @@
 # Table of Contents
 
-1. [Chapter 1: Installing Windows 10](1_installing)
++ [Chapter 1: Installing Windows 10](1_installing)
   + [Exam Essentials](1_installing/essentials.md)
   + [Windows Versions](1_installing/versions.md)
   + [Windows 10 Features](1_installing/features.md)
   + [Windows Feature Deprecation](1_installing/feature_deprecation.md)
   + [Using Windows Update](1_installing/update.md)
   + [Migrating Files and Settings](1_installing/migrating_files.md)
-2. [Chapter 2: Automated Windows 10 Deployments](2_automation)
++ [Chapter 2: Automated Windows 10 Deployments](2_automation)
   + [Exam Essentials](2_automation/essentials.md)
   + [Deployment Options](2_automation/deployment_options.md)
   + [Unattended Installation](2_automation/unattended_installation.md)
