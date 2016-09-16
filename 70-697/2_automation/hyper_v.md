@@ -92,3 +92,15 @@ disks.
 
 __Edit Disk:__ This provides you with the Edit Virtual Hard Disk Wizard, which
 you can use to compact, convert, expand, merge, or reconnect hard disks.
+
+### Managing Checkpoints
+
+With checkpoints (formerly knows as snapshots), you can save a copy of the
+virtual machine at any point as long as the machine is not paused.
+
+When you make a checkpoint, the following files will be created in the VM's
+checkpoint folder:
+
++ A VM config file
++ VM saved state files
++ Checkpoints differencing disks (AVHDs)
