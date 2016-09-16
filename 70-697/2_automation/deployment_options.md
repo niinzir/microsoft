@@ -15,4 +15,4 @@ The options for automated deployment of Windows 10 are as follows:
 + WDS, which requires Windows SErver 2012 R2 for deployment
 + Windows 10 Assessment and Deployment Kit (ADK), which also includes the System
   Preparation Tool (_Sysprep.exe_), used to create images or clones
-+ Windows Imageing and Configuration Designer (Windows ICD)
++ Windows Imaging and Configuration Designer (Windows ICD)

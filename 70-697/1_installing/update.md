@@ -1,4 +1,4 @@
-## Usiing Windows Update
+## Using Windows Update
 
 _Windows Update_ is a utility that conencts to the Microsoft website and check o
 ensure that you ahve the most up to date versions of Microsoft products. Some of
@@ -23,10 +23,10 @@ Update Automatic Client (_wuauclt.exe_), which offers the following options:
 
 __Detectnow:__ When working with WSUS, waiting for detection to start can become
 very time-consuming. To run the _detectnow_ option, type the following command
-at the command prmopt: __wuauclt.exe /detectnow__
+at the command prmopt: `wuauclt.exe /detectnow`
 
 __Reportnow__ This command allows you to send all queued reporting events to the
-server asynchronously. To execute this command, type __wuauclt.exe /reportnow__
+server asynchronously. To execute this command, type `wuauclt.exe /reportnow`
 at the command prompt.
 
 __Resetauthoriztion__ WSUS uses a cookie on Windows 10 client computers to store
@@ -34,5 +34,5 @@ different types of information. By default, an hour after the cookie is created,
 it expires. If you need the cookie to expire now, you can use the
 _resetauthorization_ option along with the _detectnow_ option. Using these
 options will expire the cookie, initiate detection, and have WSUS update
-computer group membership. To execute this command, type __wuauclt.exe
-/resetauthorization /detectnow__ at the command prompt.
+computer group membership. To execute this command, type `wuauclt.exe
+/resetauthorization /detectnow` at the command prompt.
