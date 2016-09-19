@@ -20,3 +20,8 @@
   + [Virtualization and Hyper-V](2_automation/hyper_v.md)
 + [Chapter 3: Configuring Storage and Security](3_storage_security)
   + [File Systems](3_storage_security/file_system.md)
+  + [Compression](3_storage_security/compression.md)
+  + [Encryption](3_storage_security/encryption.md)
+  + [Quotas](3_storage_security/quotas.md)
+  + [Distributed File System](3_storage_security/dfs.md)
+  + [RAID](3_storage_security/raid.md)
