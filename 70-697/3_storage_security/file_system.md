@@ -101,7 +101,7 @@ drive letter.
 
 ### Dynamic Storage
 
-Dynamci storage is uspported by Windows 2000 and newer and allows storage to be
+Dynamic storage is spported by Windows 2000 and newer and allows storage to be
 configured as volumes.
 
 ### GPT
