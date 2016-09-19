@@ -19,6 +19,7 @@
   + [System Preparation Tool and Disk Imaging (Sysprep)](2_automation/sysprep.md)
   + [Virtualization and Hyper-V](2_automation/hyper_v.md)
 + [Chapter 3: Configuring Storage and Security](3_storage_security)
+  + [Exam Essentials](3_storage_security/essentials.md)
   + [File Systems](3_storage_security/file_system.md)
   + [Compression](3_storage_security/compression.md)
   + [Encryption](3_storage_security/encryption.md)
