@@ -181,3 +181,73 @@ Benefits over MBR:
 + Includes cyclic redundancy check (CRC) for greater reliability
 
 One disadvantage is you can only convert if the disk is empty or unpartitioned.
+
+## Managing Data Compression
+
++ Files and folders are managed independently, which means that a compressed
+  folder can contain uncompressed files
++ Access to compressed files by applications is transparent
++ Data compression is available only on NTFS partitions. If you copy or move a
+  compressed file to a FAT32 partition, Windows 10 automatically uncompresses
+  the file.
++ Certain system files (Pagefile.sys) can't be compressed.
+
+## Understanding Distributed File System
+
+Administrators have the ability to take shared folders that are located on
+different servers and transparently connect them to one or more DFS namespaces.
+
+### Advantages of DFS
+
++ When a user views this virtual tree, the shared folders appear to be located
+  on a single machine
++ __Simplified Data Migration:__ DFS gives you the ability to move data from one
+  location to another without the user needing to know the physical location of
+  the data.
++ __Security Integration:__ Administrators do not need to configure additional
+  security for the DFS shared folders.
++ __Access-Based Enumeration (ABE):__ This feature (disabled by default)
+  displays only the files and folders that a user has permissions to access.
+
+### Types of DFS
+
++ __DFS Replication:__ Manage replication scheduling and bandwidth throttling
+  using the DFS management console.
++ __DFS Namespaces:__ The DFS Namespace service is the virtual tree lising in
+  the DFS server. An administrator can setup multiple namespaces on the DFS,
+  allowing for multiple virtual trees within DFS.
+
+## Recovering Encrypted Files
+
+### Using the DRA
+
+DRAs are impleented differently depending on the version of your OS and th
+econfiguration of you computer:
+
++ For Windows 10 that are part of a 2012 R2 Active Directory domain, the domain
+  administrator user account is automatically assigned the role of DRA.
++ For Windows 10 that are installed as stand-alone computers or if the computer
+  is part of a workgroup, no default DRA is assigned.
+
+You shoul duse extreme caution when using EFS on a stand-alone Windows 10
+computer, if the key used to encrypt the files is lost, there is no default
+recovery process, and all access to the files will be lost.
+
+## RAID Levels
+
+Windows 10 allows for configuration of three main levels:
+
+__RAID-0 (Striped):__
++ No data recoverability, but better performance
++ Minimum of two hard disks, work together as a single volume.
++ If yo ulose either disk, you lose the entire striped volume.
+
+__RAID-1 (Mirrored):__
++ Setup two volumes or disks that mirror each other.
++ If you lose one disk or volume, you can boot to the second disk or volume.
+
+__RAID-5:__
++ Previously known as a stripe set with parity.
++ Minimum of 3 disks that work together as one volume.
++ The volume uses a parity bit, which allows you to recover your data in the
+  event of a single hard disk failure.
