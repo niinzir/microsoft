@@ -104,7 +104,80 @@ drive letter.
 Dynamic storage is spported by Windows 2000 and newer and allows storage to be
 configured as volumes.
 
-### GPT
+Dynamic storage is Windows 10 feature that consists of a dynamic disk divided
+into dynamic volumes.
+
+Cannot contain partitions or logical drives.
+
+Supports three dynamic volume types: simple, spanned, and striped.
+
+Also supports Redundant Array of Independent Disks (RAID).
+
+To setup dynamic storage, you convert or upgrade a basic disk to dynamic disk.
+
+When converting a basic disk to dynamic, you do not lose any of your data. After
+the disk is converted, any partititons that existed on the basic disk are
+converted to dynamic simple volumes.
+
+#### Simple Volumes
+
+A _simple volume_ contains space from a single dynamic drive.
+
+The space from the single drive can be contiguous or noncontiguous.
+
+Simple volumes are used when you ahve enough disk space on a single drive to
+hold your entire volume.
+
+#### Spanned Volumes
+
+A _spanned volume_ consists of disk space on two or more dynamic drives.
+
+Up to 32 dynamic drives can be used ina spanned volume configuration.
+
+When you create spanned volumes, the data is written sequentially, filling space
+on one physical drive before writing to space on the next physical drive.
+
+Because data is written sequentially, you do not see any performance
+enhancements with spanned volumes as you do with striped.
+
+The main disadvantage of spanned volumes is that if any drive in the spanned
+volume set fails, you lose access to all of the data in the spanned set.
+
+#### Striped Volumes
+
+A _striped volume_ stores data in equal stripes between two or more (up to 32)
+dynamic drives.
+
+Since the data is written sequentially across the stripe, you can take advantage
+of multiple I/O performance and increase the speed as which data reads and
+writes take place.
+
+The main disadvantage of striped volumes is that if any drive in the striped
+volume set fails, you lose access to all of the data in the striped set.
+
+### Guid Partiton Table (GPT)
 
 GPT support begins with the Windows 2003 SP1 release and allows you to configure
 volume sizes larger than 2TB and up to 128 primary partitons.
+
+Basic and dynamic disks use the Master Boot Record (MBR) partition scheme with
+Cylinder-Head-Sector (CHS) addresing. CHS allows computers to assign addresses
+to data on the computer's hard drives.
+
+GPT uses an addressing scheme called Logical Block Addressing (LBA) which is a
+newer method of addressing hard drives.
+
+LBA uses a unique sector number only instead of using the cylinder, head, and
+sector number.
+
+Another advantage is that the GPT header and partititon table are written to
+both the front and back ends of the disk, which provides for better redundancy.
+
+Benefits over MBR:
+
++ Volume size larger than 2TB
++ Up to 128 Primary partitions
++ Used for both 32bit and 64 bit Windows 10
++ Includes cyclic redundancy check (CRC) for greater reliability
+
+One disadvantage is you can only convert if the disk is empty or unpartitioned.
