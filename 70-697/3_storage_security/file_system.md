@@ -2,7 +2,7 @@ __File System Capabilities:__
 
 Feature | FAT32 | NTFS
 --- | --- | ---
-Suporting OS | All Windows OS avove 95 | NT, 2000, XP, 2003, Vista, 7, 8, 10, 2008/R2, 2012/R2
+Suporting OS | All versions above 95 | NT, 2000, XP, 2003, Vista, 7, 8, 10, 2008/R2, 2012/R2
 Long filename support | Yes | Yes
 Efficient use of disk space | Yes | Yes
 Compression support | No | Yes
