@@ -30,3 +30,4 @@
   + [Dynamic Access Control](4_data_access/dac.md)
   + [Securing Access to Files and Folders](4_data_access/securing_access.md)
   + [HomeGroups](4_data_access/homegroups.md)
+  + [BitLocker](4_data_access/bitlocker.md)
