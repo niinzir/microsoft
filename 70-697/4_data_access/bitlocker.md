@@ -16,3 +16,22 @@ A TPM is a chip that is found in newer computers.
 
 BitLocker requires that you have a hard disk with at least two partitions, both
 formatted with NTFS.
+
+### Overview of Microsoft BitLocker Administration and Monitoring (MBAM)
+
++ Automatically set up client computers to use encrypted volumes across the
+  entire enterprise.
+
++ Rapidly determine if the corporate compliances have been met, and it also
+  allows them to check the state of individual computers throughout the network.
+
++ Use Microsoft System Center Configuration Manager to have a centalized
+  reporting and hardware management utility that works with MBAM.
+
++ Rapidly assist end users with BitLocker PIN and recovery key requests
+
++ Allows corporate users to recover their own encrypted devices by using the
+  MBAM Self-Service Portal.
+
++ Give corporations piece of mind that their users can work anywhere in the
+  world with the knowledge that corporate data is being protected.
