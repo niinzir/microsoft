@@ -27,6 +27,7 @@
   + [Distributed File System](3_storage_security/dfs.md)
   + [RAID](3_storage_security/raid.md)
 + [Chapter 4: Managing Data Access](4_data_access)
+  + [Exam Essentials](4_data_access/essentials.md)
   + [Dynamic Access Control](4_data_access/dac.md)
   + [Securing Access to Files and Folders](4_data_access/securing_access.md)
   + [HomeGroups](4_data_access/homegroups.md)
