@@ -32,3 +32,5 @@
   + [Securing Access to Files and Folders](4_data_access/securing_access.md)
   + [HomeGroups](4_data_access/homegroups.md)
   + [BitLocker](4_data_access/bitlocker.md)
++ [Chapter 5: Managing the Windows 10 Environment](5_managing_environment)
+  + [Exam Essentials](5_managing_environment/essentials.md) 
