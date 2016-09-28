@@ -34,3 +34,6 @@
   + [BitLocker](4_data_access/bitlocker.md)
 + [Chapter 5: Managing the Windows 10 Environment](5_managing_environment)
   + [Exam Essentials](5_managing_environment/essentials.md) 
++ [Chapter 6: Planning and Managing Microsoft Intune](6_intune)
+  + [Exam Essentials](6_intune/essentials.md)
+  + [Understanding Intune](6_intune/understanding_intune.md)
