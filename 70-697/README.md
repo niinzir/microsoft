@@ -37,7 +37,7 @@
 + [Chapter 6: Planning and Managing Microsoft Intune](6_intune)
   + [Exam Essentials](6_intune/essentials.md)
   + [Understanding Intune](6_intune/understanding_intune.md)
-+ [Chapter 7: Configuring Applications](7_configuring_applications)
++ [Chapter 7: Configuring Applications](7_configuring_applications/essentials.md)
   + [Exam Essentials](7/configuring_applications/essentials.md)
   + [Application Compatibility Toolkit (ACT)](7_configuring_applications/act.md)
   + [User Experience Virtualization (UE-V)](7_configuring_applicaitons/ue-v.md)
