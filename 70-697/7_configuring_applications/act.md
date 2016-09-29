@@ -27,3 +27,16 @@ Compatibility Test Tool (IECTT), and the Compatibility Administrator, which
 allow administrators to fix their compatibilty issues
 
 ---
+
+## Understanding Application Fix (Shims)
+
+The _Shims_ is a coding fix that allows the application to function properly.
+
+The Shim Infrastructure consists fo application programming interface (API)
+hooking.
+
+This means the Shim Infrastructure uses linking to redirect API calls from
+Windows to the alternative code called the shim.
+
+Microsoft must create the Shim; Microsfot does not offer any custom tools to
+allow for private creation.
