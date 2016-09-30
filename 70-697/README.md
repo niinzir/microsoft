@@ -42,3 +42,4 @@
   + [Application Compatibility Toolkit (ACT)](7_configuring_applications/act.md)
   + [User Experience Virtualization (UE-V)](7_configuring_applicaitons/ue-v.md)
 + [Chapter 8: Managing Identity and Authorization](8_identity_auth)
+  + [Secure Channel](8_identity_auth/secure_channel.md)
