@@ -1,4 +1,4 @@
-## Secure Channel
+## Secure Channel (Schannel)
 
 Secure Channel, also known as Schannel, is a set of security protocols that help
 offer secure encrypted communications and authentication between a client and a
