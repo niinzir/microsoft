@@ -44,3 +44,4 @@
 + [Chapter 8: Managing Identity and Authorization](8_identity_auth)
   + [Secure Channel (Schannel)](8_identity_auth/secure_channel.md)
   + [Built-in Local Groups](8_identity_auth/built_in_local_groups.md)
+  + [Special Groups](8_identity_auth/special_groups.md)
