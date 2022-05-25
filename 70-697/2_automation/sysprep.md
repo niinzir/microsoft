@@ -1,4 +1,4 @@
-## An Overview of the System Prparation Tool and Disk Imaging
+## An Overview of the System Preparation Tool and Disk Imaging
 
 The _System Preparation Tool,_ or _Sysprep_ (Sysprep.exe), is used to prepare a
 computer for disk imaging, and the disk image can then be captured using Image
