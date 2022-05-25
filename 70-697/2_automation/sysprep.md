@@ -3,12 +3,12 @@
 The _System Preparation Tool,_ or _Sysprep_ (Sysprep.exe), is used to prepare a
 computer for disk imaging, and the disk image can then be captured using Image
 Capture Wizard (an imaging-management tool included with Windows 10) or
-thrid-party imaging software.
+third-party imaging software.
 
 To perform an unattended installation, Sysprep prepares the reference computer
 by stripping away any computer-specific data, such as the security identifier
 (SID), which is used to uniquely identify each computer on the network; any
-event logs; an dnay other unique system information. Sysprep also detects any
+event logs; and any other unique system information. Sysprep also detects any
 Plug and Play devices that are installed and can adjust dynamically for any
 computers that have different hardware installed. 
 
